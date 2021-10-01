@@ -28,7 +28,7 @@ const Header = (title, date, temp) => {
   div.appendChild(h1)
   div.appendChild(span2)
 
-  console.log('AM I HERE?')
+  
   return div
 }
 
@@ -42,7 +42,7 @@ const createDate = () => {
 }
 
 const headerAppender = (selector) => {
-  console.log('SELEDCTOR', typeof selector)
+  
   const title = 'Lambda Times'
   const date = createDate()
   const temp = 73
@@ -56,7 +56,7 @@ const headerAppender = (selector) => {
   //
 }
 
-console.log('OUTSIDE')
+
 
 
 export { Header, headerAppender }
