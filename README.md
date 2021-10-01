@@ -12,8 +12,8 @@ You are not allowed to collaborate during the sprint challenge.
 
 - [ x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
 - [ x] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [x ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [ x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -59,8 +59,8 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. What is the DOM?
-2. What is an event?
-3. What is an event listener?
-4. Why would we convert a NodeList into an Array?
-5. What is a component?
+1. What is the DOM? Dom is a representation of the web page that get loaded into the browser. the main object os the document which houses other objects. it defines a logical structure of the document and the way it is accessed and manipulated.
+2. What is an event? a series of actions that occur when the user or the web browser manipulates a page. 
+3. What is an event listener? a procedure or function that waits for an event to occur
+4. Why would we convert a NodeList into an Array? because node lists can not be manipulated the same way  Arrays can. . for each . filter done work on node lists
+5. What is a component? independent and resusable bits of code
