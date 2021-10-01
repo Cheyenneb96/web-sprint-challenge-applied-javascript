@@ -1,6 +1,6 @@
 const axios = require('axios').default
 const Card = (article) => {
-  // TASK 5
+  console.log(article)
   // ---------------------
   // Implement this function, which should return the markup you see below.
   // It takes as its only argument an "article" object with `headline`, `authorPhoto` and `authorName` properties.
@@ -19,7 +19,7 @@ const Card = (article) => {
   // </div>
   //
 
-  const cardDiv = document.createElement('cardDiv')
+  const cardDiv = document.createElement('div')
   const headlineDiv = document.createElement('div')
   const authorDiv = document.createElement('div')
   const imageDiv = document.createElement('div')
@@ -83,3 +83,8 @@ const cardAppender = (selector) => {
 }
 
 export { Card, cardAppender }
+
+console.log(
+  "%cI've been trying to reach you about your car's extended warranty",
+  "color:white;font-family:system-ui;font-size:1rem;-webkit-text-stroke: 1px black;font-weight:bold"
+  )
